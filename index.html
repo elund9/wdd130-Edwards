@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 
@@ -62,31 +63,34 @@
 
     </section>
 
-    <section class="form-section">
-        <h2>Do you know a good space we don't have listed?</h2>
-        <h3>Submit a Space:</h3>
+    <form class="custom-form">
+    <div class="form-left">
+        <label>Name:</label>
+        <input type="text">
 
-        <form>
-            <label>Name:</label>
-            <input type="text">
+        <label>Location:</label>
+        <input type="text">
 
-            <label>Location:</label>
-            <input type="text">
+        <div class="radio-group">
+            <span>Social:</span>
+            <input type="radio" name="type">
 
-            <label>Description:</label>
-            <textarea rows="4"></textarea>
+            <span>Quiet:</span>
+            <input type="radio" name="type">
+        </div>
+    </div>
 
-            <div class="radio-group">
-                <label><input type="radio" name="type"> Social</label>
-                <label><input type="radio" name="type"> Quiet</label>
-            </div>
+    <div class="form-right">
+        <label>Description:</label>
+        <textarea></textarea>
+    </div>
 
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+</form>
+
+<button type="submit">Submit</button>
 
     <footer>
-        <img src="Thestudygguidelogo.png" alt="Logo">
+        <img src="images/Thestudygguidelogo.png" alt="Logo">
         <nav>
             <ul class="nav-links">
                 <li> <a href="home.html">Home</a></li>

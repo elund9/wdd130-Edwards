@@ -1,0 +1,188 @@
+body {
+  background: #ffffff;
+  color: black;
+}
+
+/* HEADER */
+.site-header {
+  background: #ffffff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.site-header img {
+  max-width: 400px;
+}
+
+/* TOP IMAGES */
+.top-images {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px 0;
+}
+
+.top-images div {
+  text-align: center;
+}
+
+.top-images img {
+  display: flex;
+  justify-content: center;
+  gap: 60px; 
+  width: 320px;     
+  height: 250px;    
+  object-fit: cover; 
+  background: #4A90E2;
+}
+
+/* Section titles */
+.top-images div:first-child h2 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #F18F40; /* Social */
+}
+
+.top-images div:last-child h2 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #3FA871; /* Quiet */
+}
+
+/* MAIN CONTAINER */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/* COLUMNS */
+.column {
+  width: 45%;
+}
+
+/* Divider */
+.column:first-child {
+  padding-right: 20px;
+}
+
+/* CARDS */
+.card {
+  background: #f2f4f8;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* Social cards */
+.column:first-child .card {
+  border-left: 6px solid #F18F40;
+}
+
+/* Quiet cards */
+.column:last-child .card {
+  border-left: 6px solid #3FA871;
+}
+
+/* Card image */
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  background: #4A90E2;
+  margin-bottom: 5px;
+}
+
+/* Card text */
+.card h3 {
+  font-size: 14px;
+  color: #3A5D9F;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+/* FORM LAYOUT */
+.custom-form {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+/* LEFT SIDE */
+.form-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* RIGHT SIDE */
+.form-right {
+  display: flex;
+  flex-direction: column;
+}
+
+/* INPUT BOXES */
+.form-left input {
+  width: 100%px;
+  padding: 8px;
+  background: #e6e6e6;
+  border: none;
+}
+
+/* TEXTAREA (big box like mockup) */
+.form-right textarea {
+  width: 240px;
+  height: 140px;
+  background: #e6e6e6;
+  border: none;
+}
+
+/* RADIO BUTTONS */
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* BUTTON UNDERNEATH */
+.form-section button {
+  margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 20px;
+  background: #3A5D9F;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  width: 80px;
+}
+
+/* NAV */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #F9C441;
+}
+
+.nav-links a:hover {
+  color: white;
+}
