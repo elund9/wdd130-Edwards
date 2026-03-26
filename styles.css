@@ -3,7 +3,6 @@ body {
   color: black;
 }
 
-/* HEADER */
 .site-header {
   background: #ffffff;
   text-align: center;
@@ -14,7 +13,6 @@ body {
   max-width: 400px;
 }
 
-/* TOP IMAGES */
 .top-images {
   display: flex;
   justify-content: center;
@@ -36,20 +34,18 @@ body {
   background: #4A90E2;
 }
 
-/* Section titles */
 .top-images div:first-child h2 {
   margin-top: 10px;
   font-size: 16px;
-  color: #F18F40; /* Social */
+  color: #F18F40; 
 }
 
 .top-images div:last-child h2 {
   margin-top: 10px;
   font-size: 16px;
-  color: #3FA871; /* Quiet */
+  color: #3FA871;
 }
 
-/* MAIN CONTAINER */
 .container {
   display: flex;
   justify-content: center;
@@ -59,17 +55,14 @@ body {
   padding-top: 20px;
 }
 
-/* COLUMNS */
 .column {
   width: 45%;
 }
 
-/* Divider */
 .column:first-child {
   padding-right: 20px;
 }
 
-/* CARDS */
 .card {
   background: #f2f4f8;
   border-radius: 10px;
@@ -77,17 +70,14 @@ body {
   margin-bottom: 20px;
 }
 
-/* Social cards */
 .column:first-child .card {
   border-left: 6px solid #F18F40;
 }
 
-/* Quiet cards */
 .column:last-child .card {
   border-left: 6px solid #3FA871;
 }
 
-/* Card image */
 .card img {
   width: 100%;
   height: 150px;
@@ -96,7 +86,6 @@ body {
   margin-bottom: 5px;
 }
 
-/* Card text */
 .card h3 {
   font-size: 14px;
   color: #3A5D9F;
@@ -106,7 +95,6 @@ body {
   font-size: 12px;
 }
 
-/* FORM LAYOUT */
 .custom-form {
   display: flex;
   justify-content: center;
@@ -114,20 +102,17 @@ body {
   align-items: flex-start;
 }
 
-/* LEFT SIDE */
 .form-left {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* RIGHT SIDE */
 .form-right {
   display: flex;
   flex-direction: column;
 }
 
-/* INPUT BOXES */
 .form-left input {
   width: 100%px;
   padding: 8px;
@@ -135,7 +120,6 @@ body {
   border: none;
 }
 
-/* TEXTAREA (big box like mockup) */
 .form-right textarea {
   width: 240px;
   height: 140px;
@@ -143,7 +127,6 @@ body {
   border: none;
 }
 
-/* RADIO BUTTONS */
 .radio-group {
   display: flex;
   align-items: center;
@@ -151,12 +134,10 @@ body {
   margin-top: 10px;
 }
 
-/* BUTTON UNDERNEATH */
 .form-section button {
   margin-top: 20px;
 }
 
-/* FOOTER */
 footer {
   margin-top: 20px;
   background: #3A5D9F;
@@ -170,7 +151,6 @@ footer img {
   width: 80px;
 }
 
-/* NAV */
 .nav-links {
   list-style: none;
   display: flex;
