@@ -179,7 +179,8 @@ header {
 }
 
 header img {
-  width: 80px;
+  width: 100px;
+  border-radius: 10px;
 }
 
 #hero-box {
@@ -236,7 +237,8 @@ main h1 {
 #box1 img, #box3 img{
   grid-column: 1/2;
   grid-row: 1/2;
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #words1 {
@@ -264,6 +266,7 @@ main h1 {
 #box2 img, #box4 img{
   grid-column: 2/3;
   width: 100%;
+  max-height: 100%;
 }
 
 #words2 {
