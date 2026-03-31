@@ -1,6 +1,7 @@
 body {
   background: #ffffff;
   color: black;
+  font-family: "Open Sans", sans-serif;
 }
 
 .site-header {
@@ -89,6 +90,7 @@ body {
 .card h3 {
   font-size: 14px;
   color: #3A5D9F;
+  font-family: "Poppins", sans-serif;
 }
 
 .card p {
